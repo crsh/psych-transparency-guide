@@ -1,0 +1,1368 @@
+Anonymization
+=============
+
+Researchers need to ensure that the privacy of human participants is
+properly protected in line with national and/or international law. One
+way to achieve this goal is to anonymize[^2] the data, rendering
+identification of participants nearly impossible. There are two ways in
+which participants can be identified: 1) through direct identifiers,
+such as names, addresses or photos, 2) through combinations of indirect
+identifiers (e.g., date of birth + job title + name of employer). Below
+we detail ways of minimizing risks, but often the risk of
+re-identification can never be eliminated completely. Researchers must
+weigh risks and benefits, bearing in mind that the research participants
+also have a legitimate interest in the realisation of benefits due to
+their participation.
+
+First, researchers are advised to consider the legal standards that
+apply to them in particular. The United States Department of Health and
+Human Resources has developed a “de-identification standard”
+([*http://bit.ly/2Dxkvfo*](http://bit.ly/2Dxkvfo)) to comply with the
+HIPAA (Health Information Portability and Accountability Act) Privacy
+rule. Readers may also refer to the guide to de-identification
+([*http://bit.ly/2IxEo9Q*](http://bit.ly/2IxEo9Q)) developed by the
+Australian National Data Services and the accompanying decision tree
+([*http://bit.ly/2FJob3i*](http://bit.ly/2FJob3i)). Finally, a
+subsection below deals with new EU data protection laws.
+
+In general, since a relatively limited set of basic demographic
+information may suffice to identify individual persons (Sweeney, 2000),
+researchers should try to limit the number of recorded identifiers as
+much as possible. If the collection of direct or many indirect
+identifiers is necessary, researchers should consider whether these need
+to be shared. If directly identifying variables are only recorded for
+practical or logistic purposes, e.g., to contact participants over the
+course of a longitudinal study, the identifying variables should simply
+be deleted from the publicly shared dataset, in which case the data set
+will be anonymized.
+
+A special case of this situation is the use of participant ID codes to
+refer to individual participants in an anonymous manner. ID codes should
+be completely distinct from real names (e.g., do not use initials).
+Participant codes should also never be based on indirectly identifying
+information, such as date of birth or postal codes. These ID codes can
+be matched with identifying information that is stored in a separate and
+secure, non-shared location.
+
+In the case that indirect identifiers are an important part of the
+dataset, researchers should carefully consider the risks of
+re-identification. For some variables it may be advisable or even
+required to restrict or transform the data. For example, for income
+information, a simple step is to restrict the upper and lower range
+(using top- and/or bottom-coding). Similarly location information such
+as US zip codes may need to be aggregated so as to provide greater
+protection (especially in the case of low-population areas in which a
+city or US zip code might be identifying information in conjunction with
+a variable like age). To analyze these risks more generally for a
+dataset, it may be useful to consider the degree to which each
+participant is unique in the dataset and in the reference population
+against which it may be compared. The nature of the reference population
+is usually described by the sampling procedure. For instance, the
+reference population may consist of students at the university where the
+research was conducted, or of patients at a hospital clinic where a
+study was performed, or of the adult population of the town where the
+research was done. Another potentially useful method is to consider
+threat models, i.e. how reidentification could be performed by different
+actors with different motives. Such a thought exercise can help uncover
+weaknesses in data protection. For example, one threat model is that the
+participant tries to reidentify themselves. In this case, one needs to
+consider what potentially identifying variables the participants has
+access to, and what harm may result from successful reidentification in
+view of what the participant already knows about themselves. Another
+threat model could be that a third party tries to identify a specific
+participant based on publicly available information. In this case, it is
+necessary to consider what publicly available information, if any, would
+permit reidentification by matching to the original dataset. Such threat
+assessments have the purpose of determining the risk of
+(re-)identification and should be used by researchers (ideally with the
+help of data archiving specialists from libraries, institutional or
+public repositories) to choose appropriate technical and/or
+organizational measures to protect participants’ privacy (e.g., by
+removing or aggregating data or restricting access).
+
+Finally, in case anonymization is impossible, researchers can obtain
+informed consent for using and sharing non-anonymized data (see below
+for example templates for consent) or place strict controls on the
+access to the data.
+
+EU Data Protection Guidelines
+-----------------------------
+
+Many researchers will be required to follow new EU data protection
+guidelines. The European Parliament, the Council of the European Union,
+and the European Commission have implemented the General Data Protection
+Regulation (GDPR) (Regulation (EU) 2016/679), a regulation that aims at
+strengthening and unifying data protection for all individuals within
+the European Union (EU). It is effective as of May 25, 2018. This new
+regulation makes a distinction between pseudonymisation and
+anonymisation. *Pseudonymisation* refers to the processing of personal
+data in such a way that it can no longer be associated with a specific
+data subject unless additional information is provided. It typically
+involves replacing identifying information with codes[^3]. The key must
+then be kept separately. The GDPR promotes the use of pseudonymisation
+as a standard data protection practice for scientific research purposes.
+*Anonymous* data are defined as information which does not relate to an
+identified or identifiable natural person or to personal data rendered
+anonymous in such a manner that the data subject is not or no longer
+identifiable by any means. This regulation does not concern the
+processing of such anonymous information, including for statistical or
+research purposes. More information on this regulation can be found on
+the European Commission’s website
+([*http://bit.ly/2rnv0RA*](http://bit.ly/2rnv0RA)). Chassang (2017) also
+discusses its implications for scientific research in more detail.
+
+The EU-funded project OpenAIRE
+([*https://www.openaire.eu/*](https://www.openaire.eu/)) offers the
+free-to-use data anonymization tool Amnesia “that allows to remove
+identifying information from data” and “not only removes direct
+identifiers like names, SSNs etc but also transforms secondary
+identifiers like birth date and zip code so that individuals cannot be
+identified in the data”
+([*https://amnesia.openaire.eu/index.html*](https://amnesia.openaire.eu/index.html)).
+
+Informed consent
+================
+
+When asking study participants for informed consent, it is important to
+also inform them about the data sharing plans for the study. ICPSR
+offers some recommendations for informed consent language for data
+sharing ([*http://bit.ly/2tWFAQK*](http://bit.ly/2tWFAQK)) and the data
+management guidelines of the German Psychological Association
+([*http://bit.ly/2ulBgt5*](http://bit.ly/2ulBgt5)) provide an example
+informed consent in Appendix B. Based on these two resources and the
+informed consent forms we have used in our own labs, we created two
+informed consent templates that researchers can use and adapt to their
+needs: one for when no personal data is being collected
+([*https://osf.io/sfjw9/*](https://osf.io/sfjw9/)), and one for when
+personal data is being collected
+([*https://osf.io/kxbva/*](https://osf.io/kxbva/)). For further
+recommendations on how to formulate an informed consent that is
+compatible with open science practices, see Meyer (2018).
+
+Born-open data 
+===============
+
+The most radical form of data sharing involves publishing data as they
+are being collected. Rouder (2016) implements this “born-open” approach
+using the publicly hosted version control system *Github*. Data can
+similarly be “born open” with other tools that may be more familiar to a
+wider range or researchers and are easier to set up. For example, a
+born-open data workflow can be set up using Dropbox[^4] and the Open
+Science Framework (OSF; see
+[*http://help.osf.io/m/addons/l/524148-connect-add-ons*](http://help.osf.io/m/addons/l/524148-connect-add-ons)).
+Once the connection is set up, the Dropbox storage is available in the
+files widget. If a file is changed in the Dropbox, all previous versions
+can be viewed and downloaded in the OSF repository. Currently, a
+drawback of this approach, compared to using a hosted version control
+system, is that OSF does not log and display changes made to files as
+Recent Activities. Hence, if files are deleted, they vanish without a
+trace, putting a serious limit on transparency.
+
+Version control software, on the other hand, automatically tracks
+changes to a repository and allow users to access previous versions.
+Such platforms (e.g., [*github.com*](http://github.com),
+[*gitlab.com*](https://gitlab.com/), or
+[*bitbucket.org*](http://www.bitbucket.org)) have both advantages and
+disadvantages. They can be used to facilitate collaboration and tracking
+changes as well as to share research products: They have greatest
+potential when used for the complete research “pipeline from data
+collection to final manuscript submission” (Rouder, 2016, p. 1066;
+Gandrud, 2013b). But for researchers with no previous experience with
+version control systems, such platforms can have a steep learning curve.
+In addition, services that host version control systems may have a
+different commitment to preserve resources than repositories that are
+explicitly designed to archive research products. However, note that,
+for example, GitHub repositories can be archived using the publicly
+funded research data repository Zenodo
+(https://guides.github.com/activities/citable-code/).
+
+Folder structure 
+=================
+
+Typically a “project” on the OSF, or on any other repository, will be
+associated with one or more studies as reported in a paper. The folder
+structure will naturally depend on what you wish to share. There is no
+commonly accepted standard. The folders can, e.g., be organized by
+study, by file type (analysis scripts, data, materials, paper), or data
+type (raw vs. processed). However, different structures may be justified
+as a function of the nature of the study. Some archives may also require
+a specific structure. One example is the BIDS format for
+openneuro/openfmri
+([*https://doi.org/10.1038/sdata.2016.44*](https://doi.org/10.1038/sdata.2016.44)).
+The structure we suggest here is inspired by The DRESS Protocol of The
+Tier project
+([*http://www.projecttier.org/tier-protocol/dress-protocol/*](http://www.projecttier.org/tier-protocol/dress-protocol/)).
+See Long (2009) for other examples of folder and file structures.
+
+Root folder
+-----------
+
+The root folder contains a general readme file providing general
+information on the studies and on the folder structure (see below):
+
+-   Short description of the study
+
+-   A description of the folder structure
+
+-   Time and location of data collection for the studies reported
+
+-   Software required to open or run any of the shared files
+
+-   Under which license(s) the files are shared (see section on licenses
+    in the main paper)
+
+-   Information on the publication status of the studies
+
+-   Contact information for the authors
+
+-   A list of all the shared files
+
+Study Protocol or Preregistration
+---------------------------------
+
+The repository should contain a description of the study protocol. This
+can coincide with the preregistration document or the method section of
+the research report. In the example project
+([*https://osf.io/xf6ug/*](https://osf.io/xf6ug/)), which is a
+registered report, we provide the full document as accepted in-principle
+at stage 1. If the study protocol or the preregistration consist of
+multiple files (e.g., analysis scripts or protocols of power analyses)
+these documents can placed in a Study protocol-folder together with the
+description of the study protocol.
+
+Materials
+---------
+
+If possible, this folder includes all the material presented to the
+participants (or as-close-as-possible reproductions thereof) as well as,
+e.g., the software used to present the stimuli and user documentation.
+The source of this material should be documented, and any licensing
+restrictions should be noted in a the readme file. In the example
+project ([*https://osf.io/xf6ug/*](https://osf.io/xf6ug/)), we provide
+the experimental software used for stimulus presentation and response
+collection, and the stimuli that we are legally able to share. License
+information on reuse is included in the README file.
+
+Raw data 
+---------
+
+This folder includes the original data, in the “rawest” possible form.
+These could, for example, be individual e-prime files, databases
+extracted from online survey software, or scans of questionnaires. If
+this form is not directly exploitable, a processed version (e.g., in CSV
+format) that can be imported by any user should be included, in an
+appropriately labeled folder. For example, raw questionnaire responses
+as encoded could be made available in this format. Ideally, both
+versions of the data (i.e., before and after being made “importable”)
+are included. In the example project
+([*https://osf.io/xf6ug/*](https://osf.io/xf6ug/)), we provide raw text
+files saved by the experimental software for each participant. A file
+containing a description of each dataset should also be included (see
+section on data documentation).
+
+Processed data
+--------------
+
+This folder contains the cleaned and processed data files used to
+generate the results reported in the paper as well as descriptions of
+the datasets. If data processing is extensive and complex, this can be
+the most efficient way to enable data re-use by other researchers.
+Nevertheless, in order to ensure full analytic reproducibility, it is
+always important to provide raw data in addition to processed data if
+there are no negative constraints (e.g., identifiable information
+embedded in the raw data). In the example project
+(http://doig.org/10.17605/OSF.IO/XF6UG), we provide the processed
+datasets in the native R Data format. A file containing a description of
+each dataset should also be included (see section on data
+documentation).
+
+Analysis 
+---------
+
+This folder includes detailed descriptions of analysis procedures or
+scripts used for transforming the raw data into processed data, for
+running the analyses, and for creating figures and tables. Instructions
+for reproducing all analyses in the report can be included in the README
+or in a separate instruction document inthis folder. If parts of the
+analyses are computationally expensive, this folder can also contain
+intermediate (“cached”) results if this facilitates fast (partial)
+reproduction of the original results. In the example project
+([*http://doi.org/10.17605/OSF.IO/XF6UG*](http://doi.org/10.17605/OSF.IO/XF6UG)),
+we provide the R Markdown file used to create the research report
+(including the appendix), and cached results in the native R Data
+format. For convenience we also provideR-script versions of the R
+Markdown files, which can be executed in R without rendering the
+manuscript. The folder also contains a subfolder “Analysis functions”,
+which contains custom R functions that are loaded and used in the R
+Markdown files.
+
+Research Report
+---------------
+
+A write-up of the results, in the form of a preprint/postprint, or the
+published paper is included here. In our example project, the data and
+analysis folder contains an R Markdown document that includes the text
+of the paper interleaved with the R code to process the raw data and
+perform all reported analyses. When rendered, it generates the research
+report (in APA manuscript style) using a dedicated package, papaja
+([*https://github.com/crsh/papaja*](https://github.com/crsh/papaja);
+Aust & Barth, 2017). The advantage of this approach is that all values
+presented in the research report can be directly traced back to their
+origin, creating a fully reproducible analysis pipeline, and helping to
+avoid copy and paste errors.
+
+Data documentation
+==================
+
+Simply making data available is not sufficient to ensure that it is
+re-usable (see e.g., Kidwell et al., 2016). Providing documentation
+(often referred to as ‘metadata’, ‘codebooks’, or ‘data dictionaries’)
+alongside data files will ensure that other researchers, and future you,
+can understand what values the data files contain and how the values
+correspond to findings presented in the research report. This
+documentation should describe the variables in each data file in both
+human- and machine-readable formats (e.g., csv, rather than docx or
+pdf).[^5] Ideally, codebooks are organized in such a way that each line
+represents one variable and each information relative to a variable
+represents a column. Extraneous information, that cannot be read (e.g.,
+colors, formatting), should be be included in the codebook as well. For
+an example of a codebook based on survey data, see this example by Kai
+Horstmann ([*https://osf.io/e4tqy/*](https://osf.io/e4tqy/)); for an
+example based on experimental data see the codebook in our example OSF
+project ([*https://osf.io/up4xq/*](https://osf.io/up4xq/)).
+
+Codebooks should include the following information for each variable:
+the name, description of the variable, units of measurement, coding of
+values (e.g., “1 = Female”,”2 = Male”), possible options or range in
+which the data points can fall (e.g., “1 = not at all to 7 = Very
+much”), value(s) used for missing values, and information on whether and
+how the variable was derived from other variables in the dataset (e.g.,
+“bmi was derived from body\_weight *m* and body\_height *l* as
+$BMI = \frac{m}{l^{2}}$.”). Other relevant information in a codebook
+entry can include the source of a measure, instructions for a
+questionnaire item, information about translation, or scale that an item
+belongs to.[^6]
+
+Analytic Reproducibility 
+=========================
+
+Below we provide more detailed guidance on a number of topics in
+analytic reproducibility.
+
+Document hardware and software used for analyses 
+-------------------------------------------------
+
+The more detailed the documentation of analyses, the more likely they
+are to be fully reproducible. The hardware, the operating system, and
+the software compiler used during the installation of some statistical
+software packages can affect analytical results (e.g., Glatard et al.,
+2015; Gronenschild et al., 2012). Any nonstandard hardware requirements,
+such as large amounts of RAM or support for parallelized or distributed
+computing, should be noted.
+
+Similarly, analysis software is subject to change. Software updates may
+introduce algorithmic changes or modifications to input and output
+formats and produce diverging results. Hence, it is crucial to document
+the analysis software that was used including version numbers (American
+Psychological Association, 2010; Eubank, 2016; Gronenschild et al.,
+2012; Keeling & Pavur, 2007; Piccolo & Frampton, 2016; Rokem et al.,
+2017; Sandve, Nekrutenko, Taylor, & Hovig, 2013; Xie, 2015). If analyses
+involve any add-ons to the base software they, too, should be documented
+including version numbers.
+
+The utility of a detailed documentation of the employed software is
+limited to a large extent by the availability of the software and its
+previous versions. An interested reader may not have the license for a
+given commercial software package or may be unable to obtain the
+specific version used in the reported analysis from the distributor. In
+contrast to commercial software, open source software is usually free of
+charge, can be included in shared software environments, and previous
+versions are often much easier to obtain. For these and other reasons
+open source software should be prefered to commercial closed source
+solutions (Huff, 2017; Ince, Hatton, & Graham-Cumming, 2012; Morin et
+al., 2012; Rokem et al., 2017; Vihinen, 2015).
+
+**Consider sharing software environments**
+
+Beyond a list of software, there are convenient technical solutions that
+allow researchers to share the software environment they used to conduct
+their analyses. The shared environments may consist of the analysis
+software and any addons but can even include the operating system (e.g.,
+Piccolo & Frampton, 2016).
+
+A software environment is organized hierarchically with the operating
+system at its base. The operating system can be extended by operating
+system libraries and hosts the analysis software. In addition some
+analysis software can be extended by add-ons that are specific to that
+software. Technical solutions for sharing software environments are
+available at each level of the hierarchy. Moving from the top to the
+base of the hierarchy the number of obstacles for reproducibility
+decreases but the technical solutions become more complex and less
+convenient. Choosing between dependency management systems, software
+containers, and virtual machines involves a trade-off between convenient
+implementation and degree of computational reproducibility.
+
+Open source analysis software, such as R and Python, support rich
+ecosystems of add-ons (so-called packages or libraries) that enable
+users to perform a large variety of statistical analyses. Typically
+multiple add-ons are used for a research project. Because the needed
+add-ons often depend on several other add-ons recreating such software
+environments to reproduce an analysis can be cumbersome. Dependency
+management systems, such as packrat (Ushey, McPherson, Cheng, Atkins, &
+Allaire, 2016) and checkpoint (Microsoft Corporation, 2017) for R,
+address this issue by tracking which versions of which packages the
+analyst used. Critically, reproducers can use this information and the
+dependency management systems to automatically install the correct
+versions of all packages from the the Comprehensive R Archive Network
+(CRAN).
+
+Software containers, such as Docker (Boettiger, 2015) or ReproZip
+(Chirigati, Rampin, Shasha, & Freire, 2016), are a more comprehensive
+solution to sharing software environments compared to add-on dependency
+management system. Software containers can bundle operating system
+libraries, analysis software, including add-ons, as well as analysis
+scripts and data into a single package that can be shared (Huff, 2017;
+Piccolo & Frampton, 2016). Because the operating system is not included
+these packages are of manageable size and require only limited
+computational resources to execute. With Docker, software containers can
+be set up automatically using a configuration script—the so-called
+Docker file. These Docker files constitute an explicit documentation of
+the software environment and can be shared along with data and analysis
+scripts instead of packaging them into a single but comparably large
+file (as ReproZip does). A drawback of software containers is that they
+are not independent of the hosting operating system and may not support
+all needed analysis software.
+
+Virtual machines allow sharing the complete software environments
+including the operating system. This approach eliminates most technical
+obstacles for computational reproducibility. Common virtualization
+software, such as VirtualBox
+([*https://www.virtualbox.org/*](https://www.virtualbox.org/)), bundle
+an entire operating system with analysis software, scripts, and data
+into a single package (Piccolo & Frampton, 2016). This file can be
+shared but is of considerable size. Moreover, execution of a virtual
+machine requires more computational resources than a software container.
+Similar to Docker, workflow tools, such as Vagrant
+([*https://www.vagrantup.com/*](https://www.vagrantup.com/)), can set up
+virtual machines including the operating system automatically based on a
+configuration script, which constitutes an explicit documentation of the
+environment and facilitates sharing the software environment.
+
+Automate or thoroughly document all analyses
+--------------------------------------------
+
+Most importantly, analytic reproducibility requires that all steps
+necessary to produce a result are documented (Hardwicke et al., 2018;
+Sandve et al., 2013) and, hence, documentation of analyses should be
+considered from the outset of a research project (p. 386, Donoho, 2010).
+The documentation could be a narrative guide that details each
+analytical step including parameters of the analysis (e.g., variable
+coding or types of sums of squares; Piccolo & Frampton, 2016). However,
+ideally an interested reader can reproduce the results in an automated
+way by executing a shared analysis script. Hence, if possible the entire
+analysis should be automated (Huff, 2017; Kitzes, 2017; Piccolo &
+Frampton, 2016). Any manual execution of analyses via graphical user
+interfaces should be documented by saving the corresponding analysis
+script or by using workflow management systems (Piccolo & Frampton,
+2016; Sandve et al., 2013).
+
+If possible the shared documentation should encompass the entire
+analytic process. Complete documentation ideally begins with the raw
+data and ends with the reported results. If possible, steps taken to
+visualize results should be included in the documentation. All data
+manipulation, such as merging, restructuring, and transforming data
+should be documented. Manual manipulation of raw data should be avoided
+because errors introduced at this stage are irreversible (e.g., Sandve
+et al., 2013).
+
+Use UTF-8 character encoding
+----------------------------
+
+Character encodings are systems used to represent symbols such as
+numbers and text usually in a numeral system, such as binary (zeros and
+ones) or hexadecimal. Not all character encoding systems are compatible
+and these incompatibilities are a common cause of error and nuisance.
+Text files contain no information about the underlying character
+encoding and, hence, the software either makes an assumption or guesses.
+If an incorrect character encoding is assumed characters are displayed
+incorrectly and the contents of the text file may be (partly)
+indecipherable. UTF-8 is a widely used character encoding system that
+implements the established Unicode standard. It can represent symbols
+from most of the world’s writing systems and maintains backward
+compatibility with the previously dominant ASCII encoding scheme. Its
+standardization, wide adoption, and symbol richness make UTF-8 suitable
+for sharing and long-term archiving. When storing text files,
+researchers should ensure that UTF-8 character encoding is applied.
+
+Avoid “works on my machine” errors
+----------------------------------
+
+When a fully automated analysis fails to execute on the computer of
+someone who wants to reproduce it although the original analyst can
+execute it flawlessly, the reproducer may be experiencing a so-called
+“works on my machine” error (WOMME). In the political sciences the rate
+of WOMME has been estimated to be as high as 54% (Eubank, 2016).
+Trivially, the replicator may be missing files necessary to run the
+analysis. As discussed above, WOMME can also be caused by hardware and
+software incompatibilities. Moreover, the file locations specified in
+analysis scripts are a common source of WOMME. Space and other special
+characters in file and directory names can cause errors on some
+operating systems and should be avoided. Similarly, absolute file paths
+to a specific location (including hard drive and user directory) are a
+likely source of WOMME. Hence, researchers should use file paths to a
+location relative to the current working directory if possible (e.g.,
+Eubank, 2016; Gandrud, 2013a; Xie, 2015) or load files from a permanent
+online source. To guard against WOMME, researchers should verify that
+their analyses work on a computer other than their own, prefer open
+source analytical software that is available on all major operating
+systems, and ideally share the entire software environment used to
+conduct their analyses (see the *Sharing software environments*
+section). Another option to avoid WOMME is to share data and code via
+cloud-based platforms, such as Code Ocean
+([*https://codeocean.com/*](https://codeocean.com/)) or RStudio Cloud
+([*https://rstudio.cloud/*](https://rstudio.cloud/)), that ensure
+computational reproducibility by running the analysis code in a cloud
+environment instead of locally on a user’s computer.
+
+Share intermediate results for complex analyses
+-----------------------------------------------
+
+Some analyses can be costly to reproduce due to non-standard hardware
+requirements, because they are computationally expensive, or both.
+Besides pointing out the costliness of such analyses, researchers can
+facilitate reproducibility of the simpler analysis steps by sharing
+intermediate results. For example, when performing simulations, such as
+the simulation of a statistical models’ joint posterior distribution in
+Bayesian analyses, it can be helpful to store and share the simulation
+results. This way interested readers can reproduce all analyses that
+rely on the simulated data without having to rerun a computationally
+expensive simulation.
+
+Set and record seeds for pseudorandom number generators
+-------------------------------------------------------
+
+Some statistical methods require generation of random numbers, such as
+the calculation of bootstrap statistics, permutation tests in large
+samples, Maximum likelihood estimation using optimization algorithms,
+Monte Carlo simulations, Bayesian methods that rely on Markov Chain
+Monte Carlo sampling, or jittering of data points in plots. Many
+statistical applications employ algorithmic pseudorandom number
+generators (PRNG). These methods are called pseudorandom because the
+underlying algorithms are deterministic but produce sequences of
+numbers, which have similar statistical properties as truly random
+sequences. PRNG apply an algorithm to a numerical starting point (a
+number or a vector of numbers), the so-called seed. The resulting
+sequence of numbers is fully determined by the seed—every time the PRNG
+is initiated with the same seed it will produce the same sequence of
+pseudorandom numbers. Whenever an analysis involves statistical methods
+that rely on PRNG the seeds should be recorded and shared to ensure
+computational reproducibility of the results (Eubank, 2016; Sandve et
+al., 2013; Stodden & Miguez, 2014), ideally by setting it at the top of
+the analysis script.
+
+**Practical Implementation:**
+
+Note that the analysis software or add-ons to that software may provide
+more than one PRNG and each may require its own seed. In principle, any
+whole number is a valid seed for a PRNG but in practice larger numbers
+sometimes yield better sequences of pseudorandom numbers in the sense
+that they are harder to distinguish from truly random sequences. A good
+way to generate a PRNG seed value is to use a true random number
+generator, such as
+[*https://www.random.org/integers/*](https://www.random.org/integers/).
+
+### SPSS
+
+SPSS provides the multiplicative congruential (MC) generator, which is
+the default PRNG, and the Mersenne Twister (MT) generator, which was
+added in SPSS 13 and is considered to be a superior PRNG—it is the
+default in SAS, R, and Python. The MC generator can be selected and the
+seed value set as follows:
+
+~~~spss
+SET RNG=MC SEED=301455.
+~~~
+
+For the MC generator the seed value must be a any whole number between 0
+and 2,000,000. The MT generator can be selected and the seed value set
+as follows:
+
+~~~spss
+SET RNG=MT MTINDEX=158237730.
+~~~
+
+For the MC generator the seed value can be any real number. To select
+the PRNG and set the seed value in the graphical user interface choose
+from the menus Transform &gt; Random Number Generators.
+
+### SAS
+
+SAS relies on the MT generator. The seed value can be set to any whole
+number between 1 and 2,147,483,647 as follows:
+
+~~~sas
+call streaminit(663562138);
+~~~
+
+### R
+
+R provides seven different PRNG but by default relies on the MT
+generator. The MT generator can be selected explicitly and the seed
+value set to any whole number as follows:
+
+~~~r
+set.seed(seed = 923869253, kind = "Mersenne-Twister")
+~~~
+
+Note that some R packages may provide their own PRNG and rely on seed
+values other than the one set by set.seed().
+
+### Python
+
+Python, too, relies on the MT generator. The seed value can be set to
+any whole number, a string of letters, or bytes as follows:
+
+~~~python
+random.seed(a = 879005879)
+~~~
+
+Note that some Python libraries may provide their own PRNG and rely on
+seed values other than the one set by random.seed().
+
+Make your analysis documentation easy to understand
+---------------------------------------------------
+
+It is important that readers of a narrative documentation or analysis
+scripts can easily connect the described analytical steps to
+interpretative statements, tables, and figures in a report (e.g.,
+Gandrud, 2013; Sandve et al., 2013). Correspondence between analyses and
+reported results can be established by adding explicit references to
+section headings, figures, or tables in the documentation and by
+documenting analyses in the same order in which the results are
+reported. Additionally, it can be helpful to give an overview of the
+results produced by the documented analysis (see the Project Tier DRESS
+Protocol). Additional analyses that are not reported can be included in
+the documentation but should be discernible (e.g., by adding a comment
+“not reported in the paper”). A brief justification why the analyses
+were not reported should be added as a comment.
+
+Best practices in programming discourage extensive commenting of
+analysis scripts because comments have to be diligently revised together
+with analysis code—failing to do so yields inaccurate and misleading
+comments (e.g., Martin, 2009). While excessive commenting can be useful
+during analysis, it is recommended to delete obscure or outdated
+comments once a script is finalized to reduce confusion (Long, 2009).
+Comments should explain the rationale or intent of an analysis, provide
+additional information (e.g., preregistration documents or standard
+operating procedures, Lin & Green, 2016), or warn that, for example,
+particular analyses may take a long time (Martin, 2009). If comments are
+needed to explain how a script works, researchers should check whether
+they can instead rewrite the code to be clearer. Researchers can
+facilitate the understanding of their analysis scripts by adhering to
+other common best practices in programming, such as using consistent,
+descriptive, and unambiguous names for variables, labels, and functions
+(e.g. Kernighan & Plauger, 1978; Martin, 2009) or avoiding to rely on
+defaults by explicitly setting optional analysis parameters. Extensive
+narrative documentation is not necessary in a script file (Eglen et al.,
+2017), and is better suited to dynamic documents (see below).
+
+As a final note, it can be beneficial to split the analysis
+documentation into parts (i.e., files and directories) in a way that
+suits the research project. A basic distinction applicable to most cases
+is between processing of raw data—transforming original data files into
+restructured and cleaned data—and data analysis and visualization (see,
+e.g.,
+[*http://www.projecttier.org/tier-protocol/specifications/*](http://www.projecttier.org/tier-protocol/specifications/)).
+
+Dynamic documents
+-----------------
+
+It is important that readers of a narrative documentation or analysis
+scripts can easily connect the described analytical steps to
+interpretative statements, tables, and figures in a report (e.g.,
+Gandrud, 2013a; Sandve et al., 2013).
+
+Dynamic documents constitute a technically sophisticated approach to
+connect analytical steps and interpretative statements (e.g., Gandrud,
+2013a; Knuth, 1984; Kluyver et al., 2016; Welty, Rasmussen, Baldridge, &
+Whitley, 2016; Xie, 2015). Dynamic documents intertwine automated
+analysis scripts and narrative reporting of results. When a document is
+compiled all embedded analysis scripts are executed and the results are
+inserted into the text. The mix of analysis code and prose creates
+explicit links between the reported results and the underlying
+analytical steps and makes dynamic documents well suited for
+documentation and sharing. It is possible to extend this approach to
+write entire research papers as dynamic documents (e.g., Aust & Barth,
+2017; Allaire et al. 2017b). When sharing researchers should include
+both the source file, which contains the executable analysis code, and
+the compiled file, preferably in HTML or PDF format.
+
+Below we provide a brief overview of three software solutions for
+creating dynamic documents: R Markdown (Allaire et al., 2017a), Jupyter
+(Kluyver et al., 2016), and StatTag (Welty, et al., 2016).
+
+### R Markdown
+
+rmarkdown is an R package that provides comprehensive functionality to
+create dynamic documents. R Markdown files consist of a front matter
+that contains meta information as well as rendering options and is
+followed by prose in Markdown format mixed with R code chunks. Markdown
+is a formatting syntax that was designed to be easy-to-read and -write
+(e.g., \*italic\* yields *italic*) and has gained considerable
+popularity in a range of applications. When the document is compiled the
+R code is executed sequentially and the resulting output (including
+figures and tables) is inserted into the document before it is rendered
+into a HTML, Word, and PDF document. Although R Markdown is primarily
+intended for R, other programming languages, such as Python or Scala,
+have limited support.
+
+R Markdown uses customizable templates that control the formatting of
+the compiled document. The R package papaja (Aust & Barth, 2017)
+provides templates that are specifically designed to create manuscripts
+in APA style and functions format analysis results in accordance with
+APA guidelines. Additional document templates that conform to specific
+journal or publisher guidelines are available in the rticles package
+(Allaire et al., 2017b)
+
+The freely available integrated development environment RStudio provides
+good support for R Markdown and can be extended to, e.g., count words
+(Marwick, n.d.) or search and insert citations from a BibTeX file or
+Zotero library (Aust, 2016).
+
+### Jupyter
+
+Jupyter is a web-application for creating dynamic documents that support
+one or multiple programming languages, such as Python, R, Scala, and
+Julia. Like R Markdown, Jupyter relies on the Markdown formatting syntax
+for prose and while the primary output format for dynamic documents is
+HTML, Jupyter documents can be rendered to other formats with document
+templates, albeit less conveniently. Like in R Markdown, Jupyter can be
+extended, e.g., to search and insert citations from a Zotero library.
+
+### StatTag
+
+StatTag can be used to create dynamic Word documents. It supports
+integration with R, SAS, and SPSS by inserting the contents of variables
+defined in the analysis scripts into the word document. Other document
+formats are not supported.
+
+### Comparison
+
+StatTag may be the most beginner friendly but currently least flexible
+option and it is the only of the three presented options that supports
+SAS and SPSS. Jupyter is the recommended alternative for researchers
+using Python, Scala, and Julia, or for researchers whose workflows
+combine multiple programming languages including R. While Jupyter is
+well suited for data exploration, interactive analysis, and analysis
+documentation, R Markdown is better suited for writing PDF and Word
+documents including journal article manuscripts. In contrast to Jupyter,
+R Markdown relies entirely on text files, works well with any text
+editor or integrated development environment, and is better suited for
+version control systems such as git. Technical requirements and personal
+preferences aside, R Markdown, Jupyter, and StatTag are all well suited
+for documenting and sharing analyses.
+
+Preregistration
+===============
+
+How should you pre-register your study? There has been growing awareness
+of pre-registration in recent years, but there are still few established
+guidelines to follow. In brief, an ideal pre-registration involves a
+written specification of your hypotheses, methods, and analyses, that
+you formally ‘register’ (create a time-stamped, read-only copy) on a
+public website, such that it can be viewed by the scientific community.
+Another form of pre-registration known as “Registered Reports”
+(Chambers, 2013; Hardwicke & Ioannidis, 2018), involves submitting your
+pre-registration to a journal where it undergoes peer-review, and may be
+offered *in principle acceptance* before you have even started the
+study, indicating that the article will be published pending successful
+completion of the study according to the methods and analytic procedures
+outlined, as well as a cogent interpretation of the results. This unique
+feature of Registered Reports may offer some remedy to the issue of
+publication bias because studies are accepted for publication based on
+the merits of the research question and the methodological quality of
+the design, rather than the outcomes (Chambers et al., 2014).
+
+Really, it is up to you how much detail you put in your pre-registration
+and where you store it. But clearly, a more detailed (and reviewed)
+pre-registration will provide more constraint over the potential
+analytical flexibility, or ‘researcher degrees of freedom’, outlined
+above, and will therefore allow you and others to gain more confidence
+in the veracity of your findings. To get started, you may wish to use an
+established pre-registration template. The Open Science Framework (OSF)
+has several to choose from (for a brief tutorial on how to pre-register
+via the OSF, see [*https://osf.io/2vu7m/*](https://osf.io/2vu7m/)). In
+an OSF project, click on the “Registrations” tab and click “New
+Registration”. You will see a list of options. For example, there is a
+template that has been developed specifically for social psychology (van
+'t Veer & Giner-Sorolla, 2016). For a simple and more general template
+you may wish to try the “AsPredicted preregistration”. This template
+asks you 9 key questions about your study, for example, “Describe the
+key dependent variable(s) specifying how they will be measured.”
+
+One downside of templates is that they do not always cover important
+aspects of your study that you think should be pre-registered but the
+template creators have not anticipated. Templates can also be limited if
+you want to specify detailed analysis code within your pre-registration
+document. As a result, you may quickly find that you prefer to create
+your own custom pre-registration document (either from scratch or
+adapted from a template). Such a document can still be registered on the
+OSF, you just need to upload it to your OSF project as a regular file,
+and register it using the procedure outlined above, this time choosing
+the “OSF-Standard Pre-Data Collection Registration” option instead of
+one of the other templates.
+
+After completing a template, or choosing to register a custom document,
+you will be asked if you would like to make the pre-registration public
+immediately, or set an embargo period of up to four years, after which
+the pre-registration will be made public. Note that the AsPredicted
+template mentioned above is actually based on a different website
+([*https://aspredicted.org/*](https://aspredicted.org/)) that provides
+its own registration service as an alternative to the OSF. If you use
+the AsPredicted service, all pre-registrations are private by default
+until they are explicitly made public by their owners. This may sound
+appealing, but it is potentially problematic: when registrations are
+private, the scientific community cannot monitor whether studies are
+being registered and not published (e.g., a file-drawer effect), or
+whether multiple, similar pre-registrations have been created. We would
+therefore recommend using the OSF, where all pre-registrations will
+eventually be made public after four years.
+
+Once the registration process is complete (you and your collaborators
+may need to first respond to a confirmation e-mail), you will be able to
+see the frozen, read-only, time-stamped version of your project
+containing your pre-registration. You may need to click on the green
+“view registration” button if you used a template, or click on your
+custom pre-registration document in the “files” window to see the
+content itself. The url displayed in the address bar is a unique,
+persistent link to your pre-registration that you can include in your
+final published article.
+
+When you write up your study, you should explicitly indicate which
+aspects were pre-registered and which were not. It is likely that some
+deviations from your plan were necessary. This is not problematic,
+simply note them explicitly and clearly, providing a rationale where
+possible. Where you were able to stick to the plan, these aspects of
+your study retain their full confirmatory status. Where deviations were
+necessary, you and your readers have the information they need to judge
+whether the deviation was justified. Three additional tools may be
+helpful in such cases. Firstly, one can anticipate some potential
+issues, and plan for them in advance using a ‘decision-tree’. For
+example, one might pre-specify that “if the data are normally
+distributed we will use a Student’s t-test, but if the data are not
+normally distributed we will use a Mann-Whitney U test”. Of course, the
+number of potential things that can “go wrong” and require deviation
+from the pre-specified plan are likely to multiply quite rapidly, and
+this approach can become untenable.
+
+A more long-term solution is for an individual researcher or lab to
+write a “Standard Operating Procedures” (SOP) document, which specifies
+their default approach to handling various issues that may arise during
+the studies that they typically run (Lin & Green, 2016). For example,
+the document might specify which data points are considered “outliers”
+in reaction time data, and how those outliers are typically handled
+(e.g., excluded or retained). SOPs should also be registered, and either
+included along with your main pre-registration as an appendix or linked
+to directly. Of course, SOPs are only useful for issues that you have
+already anticipated and planned for, but it can be a valuable safety-net
+when you forget to include relevant information in your main
+pre-registration. SOPs can be continuously updated whenever new
+scenarios are encountered, such that there is a plan in place for future
+occasions.
+
+Finally, a useful approach for handling unanticipated protocol
+deviations is to perform a *sensitivity analysis* (Thabane et al, 2013).
+Sensitivity analyses are employed when there are multiple reasonable
+ways of specifying an analysis. For example, how should one define
+exclusion criteria for outliers? In a sensitivity analysis, a researcher
+runs an analysis several times using different specifications (e.g.,
+exclusion thresholds), and evaluates the impact of those specifications
+on the final outcome. An outcome is considered ‘robust’ if it remains
+stable under multiple reasonable analysis specifications. One might also
+consider running a *multiverse analysis*: a form of factorial
+sensitivity analysis where different specifications are simultaneously
+considered for multiple aspects of the analysis pipeline, giving a much
+more in depth picture of the robustness of the outcome under scrutiny
+(Steegen et al., 2016; also see Simonsohn et al., 2015). Indeed,
+multiverse analyses (and sensitivity analyses more broadly) are highly
+informative even when one has been able to stick to the pre-registered
+plan. To the extent that the pre-registered analysis plan included
+fairly arbitrary specifications, it is possible that that plan does not
+provide the most robust indication of the outcome under scrutiny. The
+gold standard here is to pre-register a plan for a multiverse analysis
+(Steegen et al., 2016).
+
+Incentivising Sharing
+=====================
+
+When sharing data, code, and materials, when reusing resources shared by
+others, and when appraising research merits, scientists form part of an
+ecosystem where behaviour is guided by incentives. Scientists can help
+shape these incentives and promote sharing by making use of mechanisms
+to assign credit, and by recognizing the value of open resources
+published by others.
+
+How to get credit for sharing
+-----------------------------
+
+To make a published dataset citable, it is recommended to use a
+repository that provides a persistent identifier, such as a Digital
+Object Identifier (DOI). Others will then be able to cite the data set
+unambiguously.
+
+A further mechanism that can help a researcher get credit for open data
+is the data article.The purpose of a data article is to describe an
+dataset in detail, thereby increasing the potential for reuse
+[(Gorgolewski, Margulies, & Milham,
+2013)](https://paperpile.com/c/3CGIUW/P4eR). Examples of journals that
+publish data articles and cover the field of psychology are *Scientific
+Data*
+[(*https://www.nature.com/sdata/*](https://www.nature.com/sdata/)), the
+*Journal of Open Psychology Data*
+[(*https://openpsychologydata.metajnl.com/*](https://openpsychologydata.metajnl.com/)),
+and the *Research Data Journal for the Humanities and Social Sciences*
+([*http://www.brill.com/products/online-resources/research-data-journal-humanities-and-social-sciences*](http://www.brill.com/products/online-resources/research-data-journal-humanities-and-social-sciences)).
+Data articles can be used to provide documentation going beyond metadata
+in a repository, e.g. by including technical validation. They can be a
+good means of enhancing the visibility and reusability of the data and
+are especially worthwhile for data with high reuse potential.
+
+Initiatives to increase data sharing
+------------------------------------
+
+Numerous research funders, universities/institutions, and scientific
+journals have adopted policies encouraging or mandating open data
+(reviewed e.g. in [Chavan & Penev,
+2011](https://paperpile.com/c/3CGIUW/qo7K) and Houtkoop, Chambers,
+Macleod, Bishop, Nichols, & Wagenmakers, 2018). The Peer Reviewers’
+Openness (PRO) Initiative is seeking to encourage transparent reporting
+of data and materials availability via the peer review process (Morey et
+al., 2016). Signatories of the PRO Initiative commit to reviewing papers
+only if the authors either make the data and materials publically
+available, or explain in the manuscript why they chose not to share the
+data and materials.
+
+A recent systematic review [(Rowhani-Farid, Allen, & Barnett,
+2017)](https://paperpile.com/c/3CGIUW/FN26) found that only one
+incentive has been tested in health and medical research with data
+sharing as outcome measure: Badges to Acknowledge Open Practices
+(https://osf.io/tvyxz/wiki/home/). [Kidwell et al.
+(2016)](https://paperpile.com/c/3CGIUW/Mydf) observed an almost 10-fold
+increase in data sharing after badges were introduced at the journal
+*Psychological Science*. However because this was an observational
+study, it is possible that other factors contributed to this trend. A
+follow-up study of badges at the journal *Biostatistics* found a more
+modest increase by about 7% on an absolute scale (Rowhani-Farid &
+Barnett, 2018).
+
+Another strategy for incentivizing sharing comes from fellowships
+funding the expansion of transparent research practices in academic
+institutions, such as the [*rOpenSci fellowship
+program*](https://ropensci.org/blog/2017/07/06/ropensci-fellowships/)
+and the [*Mozilla Science Fellowship
+program*](https://science.mozilla.org/programs/fellowships/overview).
+
+Reusing others’ research products
+---------------------------------
+
+Citation of research products – software, data, and materials, not just
+papers – contributes to better incentives for sharing these products.
+Commonly cited barriers to data sharing include concerns of researchers
+who generate data that others will publish important findings based on
+these data before they do (“scooping”), duplication of efforts leading
+to inefficient use of resources, and that new analyses will lead to
+unpredictable and contradictory results [(International Consortium of
+Investigators for Fairness in Trial Data Sharing et al., 2016; Smith &
+Roberts, 2016)](https://paperpile.com/c/3CGIUW/rr7Q+UVAu). While, at
+least to our knowledge, there exists no reported case of a scientist
+that has been scooped with their own data after publishing them openly,
+and while differences in results can be the topic of a fruitful
+scientific discourse, fears such as these can be allayed by consulting
+the researchers who published the data before conducting the
+(re)analysis. A further reason for consulting researchers who created
+data, code, or materials is that they are knowledgeable about the
+resource and may be able to anticipate pitfalls in reuse strategies and
+propose improvements [(Lo & DeMets,
+2016)](https://paperpile.com/c/3CGIUW/ZU0s). While the publication of a
+resource such as data, code, or materials generally does not in itself
+merit consideration for co-authorship on subsequent independent reports,
+it may be valuable to invite the resource originators into a discussion
+about the proposed new work. If the resource originators make an
+important academic contribution in this discussion, it is reasonable to
+consider offering coauthorship. What constitutes an important
+contribution can only be determined in relation to the case at hand;
+development of hypotheses, analytical strategies, and interpretations of
+results are examples that may fall in this category. Approaching open
+resources with an openness towards collaboration may, thus, help to
+increase value, as well as promoting a sharing culture. Bear in mind
+that offering co-authorship for researchers whose only contribution was
+to share their previously collected data with you on request
+disincentivizes public sharing.
+
+***Recommendations:***
+
+-   Contact the originators of the resource beforehand and tell them
+    about your plans
+
+-   Consider including the original authors in a collaboration if they
+    make an important academic contribution to your efforts
+
+-   Do not include researchers as co-authors if their only contribution
+    was sharing-on-request of previously collected data.
+
+-   Cite both the resource and any associated papers
+
+-   Address open science practices explicitly in assessments of merits,
+    and appraise the value of open science contribution
+
+When appraising scientific merits
+---------------------------------
+
+The merit value of open science practices may strongly influence
+scientists’ behaviour. Therefore, when appraising merits, for example in
+decisions about hiring and awarding research grants, open science
+practices should be assessed. Some departments of psychology[^7]
+encourage or even require job advertisement to include a statement
+expressing commitment to open science[^8]. Examples of such job
+advertisements are available here:
+[*https://osf.io/b9zks/*](https://osf.io/b9zks/).
+
+Several factors affect the value of open scientific resources.
+
+Indicators of higher value may include:
+
+-   The resource is available in a trusted repository
+
+-   The resource is comprehensively described
+
+-   Data and metadata conform to discipline-specific standards
+
+-   The resource appears, on the face of it, to have high reuse
+    potential
+
+-   There is evidence of reuse
+
+References
+==========
+
+Allaire, J. J., Cheng, J., Xie, Y., McPherson, J., Chang, W., Allen, J.,
+… Arslan, R. C. (2017a). rmarkdown: Dynamic Documents for R \[Computer
+software\]. Retrieved from
+[*https://cran.r-project.org/web/packages/rmarkdown*](https://cran.r-project.org/web/packages/rmarkdown)
+
+Allaire, J. J., R Foundation, Wickham, H., Journal of Statistical
+Software, Xie, Y., Vaidyanathan R., ... Yu, M. (2017b). rticles: Article
+Formats for R Markdown \[Computer software\]. Retrieved from
+[*https://cran.r-project.org/web/packages/rticles*](https://cran.r-project.org/web/packages/rticles)
+
+American Psychological Association. (2010). *Publication Manual of the
+American Psychological Association* (6th edition). Washington, DC:
+American Psychological Association.
+
+Arslan, R. C. (2018). Automatic codebook generation with {codebook}.
+Retrieved from
+[*https://github.com/rubenarslan/codebook*](https://github.com/rubenarslan/codebook)
+
+Aust, F. (2016). citr: 'RStudio' Add-in to Insert Markdown Citations
+\[Computer software\]. Retrieved from
+[*https://cran.r-project.org/web/packages/citr*](https://cran.r-project.org/web/packages/citr)
+
+Aust, F., & Barth, M. (2017). papaja: Create APA manuscripts with R
+Markdown \[Computer software\]. Retrieved from
+[*https://github.com/crsh/papaja*](https://github.com/crsh/papaja)
+
+Boettiger, C. (2015). An introduction to Docker for reproducible
+research. *ACM SIGOPS Operating Systems Review, 49*(1), 71-79. DOI:
+*http://www.doi.org/
+[10.1145/2723872.2723882](https://doi.org/10.1145/2723872.2723882).*
+
+Chambers, C. D. (2013). Registered Reports: A new publishing initiative
+at Cortex. Cortex, 49(3), 609–610. DOI:
+ [*http://doi.org/10.1016/j.cortex.2012.12.016*](http://doi.org/10.1016/j.cortex.2012.12.016)
+
+Chambers, C. D., Feredoes, E., Muthukumaraswamy, S. D., & Etchells, P.
+J. (2014). Instead of “playing the game” it is time to change the rules:
+Registered Reports at AIMS Neuroscience and beyond. AIMS Neuroscience,
+1(1), 4–17. DOI:
+ [*http://doi.org/10.3934/Neuroscience.2014.1.4*](http://doi.org/10.3934/Neuroscience.2014.1.4)
+
+Chassang, G. (2017). The impact of the EU general data protection
+regulation on scientific research. *Ecancermedicalscience*, 11: 709 .
+DOI:  [*http://www.doi.org/
+10.3332/ecancer.2017.709*](http://www.doi.org/%2010.3332/ecancer.2017.709)
+
+Chavan, V., & Penev, L. (2011). The data paper: a mechanism to
+incentivize data publishing in biodiversity science. *BMC
+Bioinformatics, 12,* Suppl 15, S2. DOI :
+[*https://doi.org/10.1186/1471-2105-12-S15-S2*](https://doi.org/10.1186/1471-2105-12-S15-S2)
+
+Chirigati, F., Rampin, R., Shasha, D., & Freire, J. (2016). Reprozip:
+Computational reproducibility with ease. In *Proceedings of the 2016
+International Conference on Management of Data* (pp. 2085-2088). ACM.
+
+Donoho, D. L. (2010). An invitation to reproducible computational
+research. *Biostatistics*, 11(3), 385–388.
+[*https://doi.org/10.1093/biostatistics/kxq028*](https://doi.org/10.1093/biostatistics/kxq028)
+
+Eglen, S. J., Marwick, B., Halchenko, Y. O., Hanke, M., Sufi, S.,
+Gleeson, P., … Poline, J.-B. (2017). Toward standard practices for
+sharing computer code and programs in neuroscience. *Nature
+Neuroscience*, 20(6), 770–773. DOI:
+[*https://doi.org/10.1038/nn.4550*](https://doi.org/10.1038/nn.4550)
+
+Eubank, N. (2016). Lessons from a Decade of Replications at the
+Quarterly Journal of Political Science. *PS: Political Science &
+Politics*, 49(2), 273–276. DOI:
+[*https://doi.org/10.1017/S1049096516000196*](https://doi.org/10.1017/S1049096516000196)
+
+El Emam, K. (2013). Guide to the de-identification of personal health
+information. Boca Raton, FL: CRC Press.
+
+Gandrud, C. (2013a). *Reproducible Research with R and Rstudio*. Boca
+Raton, FL: CRC Press.
+[*https://github.com/christophergandrud/Rep-Res-Book*](https://github.com/christophergandrud/Rep-Res-Book)
+
+Gandrud, C. (2013b). GitHub: A tool for social data set development and
+verification in the cloud. Available at SSRN:
+[*https://ssrn.com/abstract=2199367*](https://ssrn.com/abstract=2199367)
+or *<http://dx.doi.org/10.2139/ssrn.2199367> *
+
+Glatard, T., Lewis, L. B., Ferreira da Silva, R., Adalat, R., Beck, N.,
+Lepage, C., … Evans, A. C. (2015). Reproducibility of neuroimaging
+analyses across operating systems. *Frontiers in Neuroinformatics*, 9.
+DOI:
+[*https://doi.org/10.3389/fninf.2015.00012*](https://doi.org/10.3389/fninf.2015.00012)
+
+[*Gorgolewski, K. J., Margulies, D. S., & Milham, M. P. (2013). Making
+data sharing count: a publication-based solution. *Frontiers in
+Neuroscience*, *7*, 9.*](http://paperpile.com/b/3CGIUW/P4eR)
+
+Gronenschild, E. H. B. M., Habets, P., Jacobs, H. I. L., Mengelers, R.,
+Rozendaal, N., Os, J. van, & Marcelis, M. (2012). The Effects of
+FreeSurfer Version, Workstation Type, and Macintosh Operating System
+Version on Anatomical Volume and Cortical Thickness Measurements. *PLOS
+ONE*, 7(6), e38234. DOI:
+[*https://doi.org/10.1371/journal.pone.0038234*](https://doi.org/10.1371/journal.pone.0038234)
+
+Hardwicke, T. E., Mathur, M. B., MacDonald, K. E., Nilsonne, G., Banks,
+G. C.,... Frank, M. C. (2018, March 19). Data availability, reusability,
+and analytic reproducibility: Evaluating the impact of a mandatory open
+data policy at the journal Cognition. Retrieved from
+[*https://osf.io/preprints/bitss/39cfb/*](https://osf.io/preprints/bitss/39cfb/)
+
+Houtkoop, B., Chambers, C., Macleod, M., Bishop, D., Nichols, T., &
+Wagenmakers, E. J. Data sharing in psychology: A survey on barriers and
+preconditions. *Advances in Methods and*
+
+> *Practices in Psychological Science.* Advance online publication. DOI:
+> [*https://doi.org/10.1177/2515245917751886*](https://doi.org/10.1177/2515245917751886)
+
+Huff, K. (2017). Lessons Learned. In Kitzes, J., Turek, D., & Deniz, F.
+(Eds.). *The Practice of Reproducible Research: Case Studies and Lessons
+from the Data-Intensive Sciences*. Oakland, CA: University of California
+Press. Retrieved from
+[*https://www.gitbook.com/book/bids/the-practice-of-reproducible-research*](https://www.gitbook.com/book/bids/the-practice-of-reproducible-research)
+
+[*International Consortium of Investigators for Fairness in Trial Data
+Sharing, Devereaux, P. J., Guyatt, G., Gerstein, H., Connolly, S., &
+Yusuf, S. (2016). Toward Fairness in Data Sharing. *The New England
+Journal of Medicine*, *375*(5),
+405–407.*](http://paperpile.com/b/3CGIUW/rr7Q) DOI:
+[*http://doi.org/10.1056/NEJMp1605654*](http://doi.org/10.1056/NEJMp1605654)
+
+Ince, D. C., Hatton, L., & Graham-Cumming, J. (2012). The case for open
+computer programs. *Nature*, 482(7386), 485–488. DOI:
+[*https://doi.org/10.1038/nature10836*](https://doi.org/10.1038/nature10836)
+
+Keeling, K. B., & Pavur, R. J. (2007). A comparative study of the
+reliability of nine statistical software packages. *Computational
+Statistics & Data Analysis*, 51(8), 3811–3831. DOI:
+[*https://doi.org/10.1016/j.csda.2006.02.013*](https://doi.org/10.1016/j.csda.2006.02.013)
+
+Kernighan, B. W., & Plauger, P. J. (1978). *The Elements of Programming
+Style* (2nd edition). New York: McGraw-Hill.
+
+[*Kidwell, M. C., Lazarević, L. B., Baranski, E., Hardwicke, T. E.,
+Piechowski, S., Falkenberg, L.-S., … Nosek, B. A. (2016). Badges to
+Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for
+Increasing Transparency. *PLoS Biology*, *14*(5),
+e1002456.*](http://paperpile.com/b/3CGIUW/Mydf) DOI:
+[*https://doi.org/10.1371/journal.pbio.1002456*](https://doi.org/10.1371/journal.pbio.1002456).
+
+Kitzes, K. (2017). The Basic Reproducible Workflow Template. In Kitzes,
+J., Turek, D., & Deniz, F. (Eds.). *The Practice of Reproducible
+Research: Case Studies and Lessons from the Data-Intensive Sciences*.
+Oakland, CA: University of California Press. Retrieved from
+[*https://www.gitbook.com/book/bids/the-practice-of-reproducible-research*](https://www.gitbook.com/book/bids/the-practice-of-reproducible-research)
+
+Kluyver, T., Ragan-Kelley, B., Pérez, F., Granger, B., Bussonnier, M.,
+Frederic, J., … Jupyter Development Team. (2016). Jupyter Notebooks – A
+publishing format for reproducible computational workflows. In
+*Proceedings of the 20th International Conference on Electronic
+Publishing* (pp. 87–90). DOI:
+[*https://doi.org/10.3233/978-1-61499-649-1-87*](https://doi.org/10.3233/978-1-61499-649-1-87)
+
+Knuth, D. E. (1984). Literate Programming. *The Computer Journal*,
+27(2), 97–111. DOI:
+[*https://doi.org/10.1093/comjnl/27.2.97*](https://doi.org/10.1093/comjnl/27.2.97)
+
+Leeper, T. J. (2014). Archiving Reproducible Research with R and
+Dataverse. *R Journal*, *6*(1).
+
+[Lo, B., & DeMets, D. L. (2016). Incentives for Clinical Trialists to
+Share Data. *The New England Journal of Medicine*, *375*(12),
+1112–1115.](http://paperpile.com/b/3CGIUW/ZU0s) DOI:
+<http://doi.org/10.1056/NEJMp1608351>
+
+Long, J. S. (2009). *The workflow of data analysis using Stata*. College
+Station, TX: Stata Press.
+
+Lin, W., & Green, D. P. (2016). Standard Operating Procedures: A Safety
+Net for Pre-Analysis Plans. *PS: Political Science & Politics*, 49(3),
+495–500. DOI:
+[*https://doi.org/10.1017/S1049096516000810*](https://doi.org/10.1017/S1049096516000810)
+
+Martin, R. C. (2009). *Clean Code - A Handbook of Agile Software
+Craftsmanship*. Upper Saddle River, NJ: Prentice Hall. Retrieved from
+[*http://ricardogeek.com/docs/clean\_code.html*](http://ricardogeek.com/docs/clean_code.html)
+
+Meyer, M. N. (2018). Practical tips for ethical data sharing. *Advances
+in Methods and Practices in Psychological Science.* Advance online
+publication. DOI:
+[*https://doi.org/10.1177/2515245917747656*](https://doi.org/10.1177%2F2515245917747656)
+
+Morey, R. D., Chambers, C. D., Etchells, P. J., Harris, C. R., Hoekstra,
+R., Lakens, D., et al. (2016). The peer reviewers' openness initiative:
+Incentivizing open research practices through peer review. *Royal
+Society Open Science*, *3*(1), 150547–7. DOI:
+[*http://doi.org/10.1098/rsos.150547*](http://doi.org/10.1098/rsos.150547)
+
+Morin, A., Urban, J., Adams, P. D., Foster, I., Sali, A., Baker, D., &
+Sliz, P. (2012). Shining Light into Black Boxes. *Science*, 336(6078),
+159–160. DOI:
+ [*https://doi.org/10.1126/science.1218263*](https://doi.org/10.1126/science.1218263)
+
+Piccolo, S. R., & Frampton, M. B. (2016). Tools and techniques for
+computational reproducibility. *GigaScience*, 5, 30. DOI:
+ [*https://doi.org/10.1186/s13742-016-0135-4*](https://doi.org/10.1186/s13742-016-0135-4)
+
+Staneva, V. (2017). Assessing Reproducibility. In Kitzes, J., Turek, D.,
+& Deniz, F. (Eds.). *The Practice of Reproducible Research: Case Studies
+and Lessons from the Data-Intensive Sciences*. Oakland, CA: University
+of California Press. Retrieved from
+[*https://www.gitbook.com/book/bids/the-practice-of-reproducible-research*](https://www.gitbook.com/book/bids/the-practice-of-reproducible-research)
+
+[*Rowhani-Farid, A., Allen, M., & Barnett, A. G. (2017). What incentives
+increase data sharing in health and medical research? A systematic
+review. *Research Integrity and Peer Review*, *2*(1),
+4.*](http://paperpile.com/b/3CGIUW/FN26) DOI:
+[*https://doi.org/10.1186/s41073-017-0028-9*](https://doi.org/10.1186/s41073-017-0028-9)
+
+Rowhani-Farid, A., & Barnett, A. G. (2018). Badges for sharing data and
+code at Biostatistics: an observational study. *F1000Research*, *7*, 90.
+[*https://doi.org/10.12688/f1000research.13477.1*](https://doi.org/10.12688/f1000research.13477.1)
+
+Rouder, J. N. (2016). The what, why, and how of born-open data.
+*Behavior research methods, 48(3)*, 1062-1069. DOI:
+[*https://doi.org/10.3758/s13428-015-0630-z*](https://doi.org/10.3758/s13428-015-0630-z)
+
+Sandve, G. K., Nekrutenko, A., Taylor, J., & Hovig, E. (2013). Ten
+Simple Rules for Reproducible Computational Research. *PLOS
+Computational Biology*, 9(10), e1003285.
+[*https://doi.org/10.1371/journal.pcbi.1003285*](https://doi.org/10.1371/journal.pcbi.1003285)
+
+Simonsohn, U. (2015). Small telescopes: Detectability and the evaluation
+of replication results. Psychological science, 26(5), 559-569. DOI:
+[*http://www.doi.org/10.1126/science.aab2374*](http://www.doi.org/10.1126/science.aab2374)
+
+[*Smith, R., & Roberts, I. (2016).* Time for sharing data to become
+routine: the seven excuses for not doing so are all invalid.
+*F1000Research*, *5*, 781*.*](http://paperpile.com/b/3CGIUW/UVAu) DOI:
+[*http://doi.org/10.12688/f1000research.8422.1*](https://dx.doi.org/10.12688%2Ff1000research.8422.1)
+
+Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016).
+Increasing transparency through a multiverse analysis. *Perspectives on
+Psychological Science*, 11, 702-712. DOI:
+[*https://doi.org/10.1177/1745691616658637*](https://doi.org/10.1177/1745691616658637)
+
+Stodden, V., & Miguez, S. (2014). Best Practices for Computational
+Science: Software Infrastructure and Environments for Reproducible and
+Extensible Research. *Journal of Open Research Software*, 2(1). DOI:
+[*https://doi.org/10.5334/jors.ay*](https://doi.org/10.5334/jors.ay)
+
+Sweeney L. (2000).  Simple demographics often identify people uniquely.
+http://impcenter.org/wp-content
+/uploads/2013/09/Simple-Demographics-Often
+-Identify-People-Uniquely.pdf.
+
+Thabane, L., Mbuagbaw, L., Zhang, S., Samaan, Z., Marcucci, M., Ye, C.,
+et al. (2013). A tutorial on sensitivity analyses in clinical trials:
+the what, why, when and how. *BMC Medical Research Methodology*, 13(1),
+92. DOI:
+ [*http://doi.org/10.1186/1471-2288-13-92*](http://doi.org/10.1186/1471-2288-13-92)
+
+van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in
+social psychology—A discussion and suggested template. Journal of
+Experimental Social Psychology, 67(C), 2–12. DOI:
+ [*http://doi.org/10.1016/j.jesp.2016.03.004*](http://doi.org/10.1016/j.jesp.2016.03.004)
+
+Vihinen, M. (2015). No more hidden solutions in bioinformatics. *Nature
+News*, 521(7552), 261. DOI:
+[*https://doi.org/10.1038/521261a*](https://doi.org/10.1038/521261a)
+
+Welty, L.J., Rasmussen, L.V., Baldridge, A.S., & Whitley, E. (2016).
+StatTag \[Computer software\]. Chicago, IL: Galter Health Sciences
+Library. DOI:
+[*https://doi.org/10.18131/G36K76*](https://doi.org/10.18131/G36K76)
+
+Xie, Y. (2015). *Dynamic Documents with R and knitr* (2nd edition). Boca
+Raton, FL: CRC Press.
+
+
+[^2]: The terms "anonymize" and "de-identify" are used differently in
+    various privacy laws, but typically refer to the process of
+    minimizing risk of re-identification using current best statistical
+    practices (El Emam, 2013).
+
+[^3]: It should therefore be distinguished from a practice sometimes
+    called “pseudo-anonymization”, which involves only partial
+    anonymization (e.g., “Michael Johnson” becoming “Michael J.”).
+
+[^4]: Alternatively, the same workflow could also be set up with other
+    cloud storage providers that are integrated with OSF, such as
+    ownCloud, Google Drive, or Box, though funders or institutions may
+    have restrictions on the use of these providers.
+
+[^5]: Codebooks can be generated from the data set metadata in popular
+    statistical software, including SPSS
+    ([*http://libguides.library.kent.edu/SPSS/Codebooks*](http://libguides.library.kent.edu/SPSS/Codebooks)),
+    Stata
+    ([*http://www.stata.com/manuals13/dcodebook.pdf*](http://www.stata.com/manuals13/dcodebook.pdf)),
+    or R
+    ([*http://www.martin-elff.net/knitr/memisc/codebook.html*](http://www.martin-elff.net/knitr/memisc/codebook.html);
+    [*https://cran.r-project.org/web/packages/codebook/index.html*](https://cran.r-project.org/web/packages/codebook/index.html)),
+    or with data publishing tools (e.g.,
+    [*http://www.nesstar.com/software/publisher.html*](http://www.nesstar.com/software/publisher.html)).
+    The author of the *codebook* (Arslan, 2018) package for R has also
+    created a web app for creating codebooks for SPSS, Stata or RDS
+    files:
+    [*https://rubenarslan.ocpu.io/codebook/www/*](https://rubenarslan.ocpu.io/codebook/www/)
+
+[^6]: For those interested in metadata and codebooks, the Digital
+    Curation Centre provides a helpful overview (see
+    [*http://www.dcc.ac.uk/resources/metadata-standards*](http://www.dcc.ac.uk/resources/metadata-standards)).
+    Common metadata standards are the basic and general-purpose Dublin
+    Core and the more social-science-focused Data Documentation
+    Initiative (DDI) that was originally developed for survey data
+    (Leeper, 2014).
+
+[^7]: such as those at Ludwig Maximilian University (Munich, Germany)
+    and at the University of Oregon.
+
+[^8]: An example of such a statement is “such as “Our department
+    embraces the values of open science and strives for replicable and
+    reproducible research. For this goal we support transparent research
+    with open data, open materials, and study pre-registration.
+    Candidates are asked to describe in what way they already pursued
+    and plan to pursue these goals."
+    (http://www.fak11.lmu.de/dep\_psychologie/osc/open-science-hiring-policy/index.html).

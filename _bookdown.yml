@@ -1,0 +1,5 @@
+book_filename: "psych-transparency-guide"
+language:
+  ui:
+    chapter_name: ""
+delete_merged_file: true

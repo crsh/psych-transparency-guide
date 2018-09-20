@@ -287,7 +287,7 @@ or in a separate instruction document inthis folder. If parts of the
 analyses are computationally expensive, this folder can also contain
 intermediate (“cached”) results if this facilitates fast (partial)
 reproduction of the original results. In the example project
-([*http://doi.org/10.17605/OSF.IO/XF6UG*](http://doi.org/10.17605/OSF.IO/XF6UG)),
+([*https://doi.org/10.17605/OSF.IO/XF6UG*](https://doi.org/10.17605/OSF.IO/XF6UG)),
 we provide the R Markdown file used to create the research report
 (including the appendix), and cached results in the native R Data
 format. For convenience we also provideR-script versions of the R
@@ -1078,13 +1078,13 @@ research. *ACM SIGOPS Operating Systems Review, 49*(1), 71-79. DOI:
 
 Chambers, C. D. (2013). Registered Reports: A new publishing initiative
 at Cortex. Cortex, 49(3), 609–610. DOI:
- [*http://doi.org/10.1016/j.cortex.2012.12.016*](http://doi.org/10.1016/j.cortex.2012.12.016)
+ [*https://doi.org/10.1016/j.cortex.2012.12.016*](https://doi.org/10.1016/j.cortex.2012.12.016)
 
 Chambers, C. D., Feredoes, E., Muthukumaraswamy, S. D., & Etchells, P.
 J. (2014). Instead of “playing the game” it is time to change the rules:
 Registered Reports at AIMS Neuroscience and beyond. AIMS Neuroscience,
 1(1), 4–17. DOI:
- [*http://doi.org/10.3934/Neuroscience.2014.1.4*](http://doi.org/10.3934/Neuroscience.2014.1.4)
+ [*https://doi.org/10.3934/Neuroscience.2014.1.4*](https://doi.org/10.3934/Neuroscience.2014.1.4)
 
 Chassang, G. (2017). The impact of the EU general data protection
 regulation on scientific research. *Ecancermedicalscience*, 11: 709 .
@@ -1125,7 +1125,7 @@ Raton, FL: CRC Press.
 Gandrud, C. (2013b). GitHub: A tool for social data set development and
 verification in the cloud. Available at SSRN:
 [*https://ssrn.com/abstract=2199367*](https://ssrn.com/abstract=2199367)
-or *<http://dx.doi.org/10.2139/ssrn.2199367> *
+or *<https://doi.org/10.2139/ssrn.2199367> *
 
 Glatard, T., Lewis, L. B., Ferreira da Silva, R., Adalat, R., Beck, N.,
 Lepage, C., … Evans, A. C. (2015). Reproducibility of neuroimaging
@@ -1168,7 +1168,7 @@ Sharing, Devereaux, P. J., Guyatt, G., Gerstein, H., Connolly, S., &
 Yusuf, S. (2016). Toward Fairness in Data Sharing. *The New England
 Journal of Medicine*, *375*(5),
 405–407.*](http://paperpile.com/b/3CGIUW/rr7Q) DOI:
-[*http://doi.org/10.1056/NEJMp1605654*](http://doi.org/10.1056/NEJMp1605654)
+[*https://doi.org/10.1056/NEJMp1605654*](https://doi.org/10.1056/NEJMp1605654)
 
 Ince, D. C., Hatton, L., & Graham-Cumming, J. (2012). The case for open
 computer programs. *Nature*, 482(7386), 485–488. DOI:
@@ -1212,7 +1212,7 @@ Dataverse. *R Journal*, *6*(1).
 [Lo, B., & DeMets, D. L. (2016). Incentives for Clinical Trialists to
 Share Data. *The New England Journal of Medicine*, *375*(12),
 1112–1115.](http://paperpile.com/b/3CGIUW/ZU0s) DOI:
-<http://doi.org/10.1056/NEJMp1608351>
+<https://doi.org/10.1056/NEJMp1608351>
 
 Long, J. S. (2009). *The workflow of data analysis using Stata*. College
 Station, TX: Stata Press.
@@ -1235,7 +1235,7 @@ Morey, R. D., Chambers, C. D., Etchells, P. J., Harris, C. R., Hoekstra,
 R., Lakens, D., et al. (2016). The peer reviewers' openness initiative:
 Incentivizing open research practices through peer review. *Royal
 Society Open Science*, *3*(1), 150547–7. DOI:
-[*http://doi.org/10.1098/rsos.150547*](http://doi.org/10.1098/rsos.150547)
+[*https://doi.org/10.1098/rsos.150547*](https://doi.org/10.1098/rsos.150547)
 
 Morin, A., Urban, J., Adams, P. D., Foster, I., Sali, A., Baker, D., &
 Sliz, P. (2012). Shining Light into Black Boxes. *Science*, 336(6078),
@@ -1278,7 +1278,7 @@ of replication results. Psychological science, 26(5), 559-569. DOI:
 [*Smith, R., & Roberts, I. (2016).* Time for sharing data to become
 routine: the seven excuses for not doing so are all invalid.
 *F1000Research*, *5*, 781*.*](http://paperpile.com/b/3CGIUW/UVAu) DOI:
-[*http://doi.org/10.12688/f1000research.8422.1*](https://dx.doi.org/10.12688%2Ff1000research.8422.1)
+[*https://doi.org/10.12688/f1000research.8422.1*](https://doi.org/10.12688%2Ff1000research.8422.1)
 
 Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016).
 Increasing transparency through a multiverse analysis. *Perspectives on
@@ -1299,12 +1299,12 @@ Thabane, L., Mbuagbaw, L., Zhang, S., Samaan, Z., Marcucci, M., Ye, C.,
 et al. (2013). A tutorial on sensitivity analyses in clinical trials:
 the what, why, when and how. *BMC Medical Research Methodology*, 13(1),
 92. DOI:
- [*http://doi.org/10.1186/1471-2288-13-92*](http://doi.org/10.1186/1471-2288-13-92)
+ [*https://doi.org/10.1186/1471-2288-13-92*](https://doi.org/10.1186/1471-2288-13-92)
 
 van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in
 social psychology—A discussion and suggested template. Journal of
 Experimental Social Psychology, 67(C), 2–12. DOI:
- [*http://doi.org/10.1016/j.jesp.2016.03.004*](http://doi.org/10.1016/j.jesp.2016.03.004)
+ [*https://doi.org/10.1016/j.jesp.2016.03.004*](https://doi.org/10.1016/j.jesp.2016.03.004)
 
 Vihinen, M. (2015). No more hidden solutions in bioinformatics. *Nature
 News*, 521(7552), 261. DOI:

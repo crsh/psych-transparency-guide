@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Transparency guide</a></li>
+        <li><a href="./">Transparency guide for Psychology</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/crsh/psych-transparency-guide/edit/master/%s

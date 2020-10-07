@@ -13,19 +13,23 @@ link-citations  : yes
 site            : bookdown::bookdown_site
 
 documentclass   : book
-output          : bookdown::gitbook
+output          :
+  bookdown::gitbook:
+    includes:
+      after_body: footer.html
 
 github-repo     : crsh/psych-transparency-guide
 description     : |
-  This is a to be regularly updated version of the supplementary material provided by Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hoeflich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W. & Frank, M. C. (in press). A practical guide for transparency in psychological science. Collabra: Psychology.
+  This is a to be regularly updated version of the supplementary material provided by Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., … Frank, M. C. (2018). A Practical Guide for Transparency in Psychological Science. Collabra: Psychology, 4(1), 20. https://doi.org/10.1525/collabra.158
 ---
 
 # Preface
 
-This is an online version of the supplementary material provided by Klein et al. (in press).
+This is an online version of the supplementary material provided by Klein et al. (2018).
 We intend to update this document on (at least) an annual basis as standards and resources evolve.
+We also refer interested readers to the accompanying [Example OSF project](https://osf.io/rpydu/), [additional supplementary materials](https://osf.io/h7g5t/)).
 
 
-Citation:
+When refering to any of these materials please cite
 
-Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hoeflich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W. & Frank, M. C. (in press). A practical guide for transparency in psychological science. *Collabra: Psychology*. ([Preprint](http://dx.doi.org/10.17605/OSF.IO/RTYGM), [Example OSF project](https://osf.io/rpydu/), [Supplementary materials](https://osf.io/h7g5t/))
+Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., … Frank, M. C. (2018). A Practical Guide for Transparency in Psychological Science. Collabra: Psychology, 4(1), 20. https://doi.org/10.1525/collabra.158

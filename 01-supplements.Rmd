@@ -1336,7 +1336,7 @@ Raton, FL: CRC Press.
     Stata
     ([*http://www.stata.com/manuals13/dcodebook.pdf*](http://www.stata.com/manuals13/dcodebook.pdf)),
     or R
-    ([*http://www.martin-elff.net/knitr/memisc/codebook.html*](http://www.martin-elff.net/knitr/memisc/codebook.html);
+    ([*http://www.martin-elff.net/knitr/memisc/codebook.html*](https://www.martin-elff.net/software/memisc/manual/codebook/);
     [*https://cran.r-project.org/web/packages/codebook/index.html*](https://cran.r-project.org/web/packages/codebook/index.html)),
     or with data publishing tools (e.g.,
     [*http://www.nesstar.com/software/publisher.html*](http://www.nesstar.com/software/publisher.html)).
